@@ -1,0 +1,28 @@
+{
+  "projectName": "quan-ly-kho",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "npm",
+  "git": true,
+  "install": true,
+  "intent": true,
+  "addOnOptions": {
+    "drizzle": {
+      "database": "postgresql"
+    }
+  },
+  "projectPreset": "default",
+  "includeExamples": true,
+  "routerOnly": false,
+  "version": 1,
+  "framework": "react",
+  "chosenAddOns": [
+    "drizzle",
+    "shadcn",
+    "table",
+    "form",
+    "tanstack-query",
+    "nitro"
+  ]
+}
